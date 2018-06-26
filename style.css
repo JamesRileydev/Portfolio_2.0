@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.landing-body {
+  background-image: linear-gradient(
+  to right bottom, 
+  rgba(102, 165, 173, .5), 
+  rgba(7, 87, 91, .5)),
+  url(./img/stars.jpg);
+  /* background-image: url(./img/stars.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+}
+
+.landing-name {
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Maven Pro', sans-serif; 
+  font-size: 100px;
+  font-weight: bold;
+  color: #fff;
+  /* text-transform: uppercase; */
+}
+
+.landing-subtitle {
+  text-align: center;
+  font-family: 'Maven Pro', sans-serif; 
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+nav {
+  height: 40px;
+  padding: 10px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+.links {
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+  text-transform: uppercase;
+  height: 20px;
+  font-family: 'Maven Pro', sans-serif; 
+  border: #fff solid 2px;
+
+}
+
+.center-body {
+  height: 100vh;
+  background-color: #66a5ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
+  perspective: 1500px;
+}
+
+.card__side {
+  height: 300px;
+  width: 300px;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+  transition: all .8s ease;
+  position: absolute;
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+
+ .card__side--front {
+   background-color: #fff;
+ }
+
+.card__side--back {
+   background-color: #003b46;
+   transform: rotateY(180deg);
+ }
+
+ .card:hover .card__side--front {
+   transform: rotateY(-180deg); 
+ }
+
+  .card:hover .card__side--back {
+   transform: rotateY(0deg); 
+ }
+
+
+.bottom-body {
+  height: 100vh;
+  background-color: #07575b;
+
+}
+/* nav {
+  padding-top: 30px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav-div {
+	display: flex;
+	margin: 10px;
+	padding-right: 30px;
+}
+
+.nav-div img {
+	width: 40px;
+	height: 40px;
+	opacity: 1.0;
+	transition: opacity .6s;
+}
+ 
+.nav-div img:hover {
+	opacity: 0.3;
+} */
