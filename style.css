@@ -1,3 +1,11 @@
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(60px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -6,7 +14,7 @@
 .landing-body {
   background-image: linear-gradient(
   to right bottom, 
-  rgba(102, 165, 173, .5), 
+  rgba(102, 165, 173, .3), 
   rgba(7, 87, 91, .5)),
   url(./img/stars.jpg);
   /* background-image: url(./img/stars.jpg); */
@@ -16,23 +24,92 @@
   height: 100vh;
 }
 
+.landing-title {
+  display: flex;
+  justify-content: center;
+}
+
 .landing-name {
-  text-align: center;
-  padding-top: 50px;
+  display: inline-block;
+  /* text-align: center; */
+  margin-top: 10px;
+  padding: 0 20px 20px 20px;
   font-family: 'Maven Pro', sans-serif; 
   font-size: 100px;
   font-weight: bold;
   color: #fff;
+   */
   /* text-transform: uppercase; */
 }
 
+.landing-name::before, .landing-name::after {
+  box-sizing: inherit;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.draw {
+  transition: color 0.25s;
+}
+.draw::before, .draw::after {
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+.draw::before {
+  top: 0;
+  left: 0;
+}
+.draw::after {
+  bottom: 0;
+  right: 0;
+}
+
+.draw:hover::before {
+  border-top-color: #60daaa;
+  border-right-color: #60daaa;
+  transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+.draw:hover::after {
+  border-bottom-color: #60daaa;
+  border-left-color: #60daaa;
+  transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+
 .landing-subtitle {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   text-align: center;
   font-family: 'Maven Pro', sans-serif; 
   font-size: 40px;
   color: #fff;
   text-transform: uppercase;
 }
+
+.subtitle-animated-1 {
+  animation: moveInBottom 1.5s ease-out 2.25s;
+  animation-fill-mode: backwards;
+  backface-visibility: hidden;
+  padding: 10px;
+}
+
+.subtitle-animated-2 {
+  animation: moveInBottom 1.5s ease-out .75s;
+  animation-fill-mode: backwards;
+  backface-visibility: hidden;
+  padding: 10px;
+}
+
+.subtitle-animated-3 {
+  animation: moveInBottom 1.5s ease-out 1.5s;
+  animation-fill-mode: backwards;
+  backface-visibility: hidden;
+  padding: 10px;
+ }
 
 nav {
   height: 40px;
@@ -106,6 +183,95 @@ a {
   background-color: #07575b;
 
 }
+
+.draw {
+  color: #fff;
+  position: relative;
+  /* background: #f0f0f0; */
+  display: inline-block;
+  padding: 30px;
+  margin: 100px;
+  font-size: 40px;
+  /* cursor: pointer; */
+}
+
+.draw span {
+  position: absolute;
+  display: block;
+  background: #fff;
+  transition: all 0.125s linear;
+}
+
+.draw .top,
+.draw .bottom {
+  width: 100%;
+  height: 5px;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.draw .left,
+.draw .right {
+  width: 5px;
+  height: 100%;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+}
+
+.draw .top {
+  top: 0;
+  left: 0;
+  transition-delay: 0.375s;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+}
+
+.draw .right {
+  top: 0;
+  right: 0;
+  transition-delay: 0.25s;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+}
+
+.draw .bottom {
+  bottom: 0;
+  right: 0;
+  transition-delay: 0.125s;
+  -webkit-transform-origin: top right;
+  transform-origin: top right;
+}
+
+.draw .left {
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: bottom left;
+  transform-origin: bottom left;
+}
+
+.draw:hover .top {
+  transition-delay: 0s;
+}
+.draw:hover .right {
+  transition-delay: 0.125s;
+}
+.draw:hover .bottom {
+  transition-delay: 0.25s;
+}
+.draw:hover .left {
+  transition-delay: 0.375s;
+}
+.draw:hover .top,
+.draw:hover .bottom {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+.draw:hover .left,
+.draw:hover .right {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
 /* nav {
   padding-top: 30px;
 	display: flex;
