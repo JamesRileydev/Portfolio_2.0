@@ -1,6 +1,10 @@
 .projects-body {
   height: 150rem;
-  background-color: #66a5ad;
+    background-image: linear-gradient(
+  to right bottom, 
+  rgba(7, 87, 91, 1),
+  rgba(102, 165, 173, 1));
+  /* background-color: #66a5ad; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
