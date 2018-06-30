@@ -104,49 +104,6 @@ html {
   border: #fff solid 2px;
 }
 
-.center-body {
-  height: 100vh;
-  background-color: #66a5ad;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card {
-  height: 30rem;
-  width: 30rem;
-  perspective: 150rem;
-}
-
-.card__side {
-  height: 30rem;
-  width: 30rem;
-  border-radius: 3px;
-  background-color: white;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
-  transition: all .8s ease;
-  position: absolute;
-  backface-visibility: hidden;
-  overflow: hidden;
-}
-
- .card__side--front {
-   background-color: #fff;
- }
-
-.card__side--back {
-   background-color: #003b46;
-   transform: rotateY(180deg);
- }
-
- .card:hover .card__side--front {
-   transform: rotateY(-180deg); 
- }
-
-  .card:hover .card__side--back {
-   transform: rotateY(0deg); 
- }
-
 
 .bottom-body {
   height: 100vh;
