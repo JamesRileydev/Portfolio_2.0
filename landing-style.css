@@ -24,12 +24,12 @@ html {
 }
 
 .landing-body {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
   to right bottom, 
   rgba(102, 165, 173, .3), 
   rgba(7, 87, 91, .5)),
-  url(./img/stars.jpg);
-  /* background-image: url(./img/stars.jpg); */
+  url(./img/stars.jpg); */
+  background-image: url(./img/stars.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -102,12 +102,6 @@ html {
   height: 2rem;
   font-family: 'Maven Pro', sans-serif; 
   border: #fff solid 2px;
-}
-
-
-.bottom-body {
-  height: 100vh;
-  background-color: #07575b;
 }
 
 .star {
