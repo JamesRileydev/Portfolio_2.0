@@ -26,8 +26,8 @@ html {
 .landing-body {
   background-image: linear-gradient(
   to right bottom, 
-  rgba(102, 165, 173, .3), 
-  rgba(7, 87, 91, .5)),
+  rgba(91, 112, 101, .5), 
+  rgba(48, 64, 64, .5)),
   url(./img/stars.jpg);
   /* background-image: url(./img/stars.jpg); */
   background-repeat: no-repeat;
@@ -139,21 +139,6 @@ html {
 
 /* Name box drawing */
 
-/* .landing-name {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 40rem;
-	height: 10rem;
-	text-transform: uppercase;
-	line-height: 10rem;
-	text-align: center;
-	font-size: 4rem;
-	font-family: sans-serif;
-	color: #fff;
-	overflow: hidden;
-} */
 
 .landing-name span {
 	position: absolute;	
@@ -388,7 +373,7 @@ html {
   .navigation__icon, .navigation__icon::before, .navigation__icon::after {
     width: 3rem;
     height: 2px;
-    background-color: #333;
+    background-color: #9b4f0f;
     display: inline-block; }
   .navigation__icon::before, .navigation__icon::after {
     content: "";

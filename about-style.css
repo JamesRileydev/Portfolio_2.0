@@ -1,10 +1,30 @@
 
 .about-body {
   height: 100vh;
-  background-color: #07575b;
+  background-color: rgba(91, 112, 101, .5);
+  position: relative;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .7;
+  overflow: hidden;
+}
+
+.bg-video__content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .contact-body {
   height: 100vh;
-  background-color: #9b4f0f;
+  background-color: #304040;
+  position: relative;
 }
+
