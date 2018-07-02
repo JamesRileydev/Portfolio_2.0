@@ -9,8 +9,46 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-
+  position: relative;
 } 
+
+.projects-background {
+  position: absolute;
+  height: 60rem;
+  width: 60rem;
+  border: #c99e10 solid .5rem;
+  border-radius: 50%;
+}
+
+.triangle-one {
+  width: 0px;
+
+}
+
+.square-one {
+  top: 0rem;
+  left: -12rem;
+}
+
+.square-two {
+  top: 25rem;
+  left: 31rem;
+}
+
+.square-three {
+  top: 66rem;
+  left: 5rem;
+}
+
+.square-three {
+  top: 66rem;
+  left: 5rem;
+}
+
+.square-four {
+  top: 105rem;
+  left: 42rem;
+}
 
 .row {
   max-width: 114rem;
