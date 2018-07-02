@@ -28,7 +28,7 @@ html {
   to right bottom, 
   rgba(91, 112, 101, .5), 
   rgba(48, 64, 64, .5)),
-  url(./img/stars.jpg);
+  url(../img/stars.jpg);
   /* background-image: url(./img/stars.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
