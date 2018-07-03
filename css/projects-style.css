@@ -10,14 +10,17 @@
   justify-content: space-evenly;
   align-items: center;
   position: relative;
+  overflow: hidden;
 } 
 
 .projects-background {
   position: absolute;
-  height: 60rem;
-  width: 60rem;
+  /* height: 50rem;
+  width: 50rem; */
   border: #c99e10 solid .5rem;
   border-radius: 50%;
+  opacity: .3;
+
 }
 
 .triangle-one {
@@ -25,19 +28,47 @@
 
 }
 
-.square-one {
+.circle-one {
+  height: 100rem;
+  width: 100rem;
+  top: -5rem;
+  left: -50rem;
+}
+
+.circle-two {
+  height: 110rem;
+  width: 110rem;
+  top: -10rem;
+  left: -55rem;
+}
+
+.circle-three {
+  height: 120rem;
+  width: 120rem;
+  top: -15rem;
+  left: -60rem;
+}
+.circle-four {
+  height: 130rem;
+  width: 130rem;
+  top: -20rem;
+  left: -65rem;
+}
+
+.circle-five {
+  height: 140rem;
+  width: 140rem;
+  top: -25rem;
+  left: -70rem;
+}
+/* .square-one {
   top: 0rem;
   left: -12rem;
 }
 
 .square-two {
   top: 25rem;
-  left: 31rem;
-}
-
-.square-three {
-  top: 66rem;
-  left: 5rem;
+  left: 25rem;
 }
 
 .square-three {
@@ -46,9 +77,9 @@
 }
 
 .square-four {
-  top: 105rem;
-  left: 42rem;
-}
+  top: 85rem;
+  left: 46rem;
+} */
 
 .row {
   max-width: 114rem;
