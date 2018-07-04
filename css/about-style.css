@@ -13,9 +13,6 @@
   width: 120rem;
   position: relative; 
   flex-direction: column;
-  /* border: red .2rem solid; */
-
-
 }
 .about-h2 {
   border: 3px solid #304040;
@@ -73,7 +70,6 @@
 	background-color: #fff;
 }
 
-
 .contact-body {
   height: 100vh;
   /* background-color: #304040; */
@@ -121,7 +117,6 @@
   bottom: 0;
   background-color: #304040;
   text-align: center;
-
 }
 
 .footer p {
