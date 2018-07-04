@@ -1,12 +1,12 @@
 .projects-body {
-  height: 170rem;
+  height: 150rem;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 } 
 
 .top-circles {
@@ -17,21 +17,28 @@
   left: -80rem;
 }
 
+.middle-circles {
+  position: absolute;
+  height: 140rem;
+  width: 140rem;
+  top: 60rem;
+  right: -80rem;
+}
+
 .bottom-circles {
   position: absolute;
   height: 140rem;
   width: 140rem;
-  top: 40rem;
-  right: -80rem;
+  top: 140rem;
+  left: -80rem;
 }
-
 .projects-background {
   position: absolute;
   /* height: 50rem;
   width: 50rem; */
   border: #c99e10 solid .5rem;
   border-radius: 50%;
-  opacity: .3;
+  opacity: .1;
 }
 
 .circle-one {
@@ -67,25 +74,6 @@
   width: 140rem;
 
 }
-/* .square-one {
-  top: 0rem;
-  left: -12rem;
-}
-
-.square-two {
-  top: 25rem;
-  left: 25rem;
-}
-
-.square-three {
-  top: 66rem;
-  left: 5rem;
-}
-
-.square-four {
-  top: 85rem;
-  left: 46rem;
-} */
 
 .row {
   max-width: 114rem;
@@ -138,15 +126,7 @@ h2 {
   text-align: center;
   color: #04202C;
   font-size: 3rem;
-  
-
 }
-
-/* .card-container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-} */
 
 .card {
   height: 30rem;

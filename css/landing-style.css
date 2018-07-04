@@ -35,6 +35,7 @@ html {
   background-position: bottom;
   height: 100vh;
   position: relative;
+  z-index: 20;
 }
 
 .landing-title {
