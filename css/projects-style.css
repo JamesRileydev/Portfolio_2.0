@@ -1,9 +1,5 @@
 .projects-body {
-  height: 150rem;
-    /* background-image: linear-gradient(
-  to right bottom, 
-  rgba(7, 87, 91, 1),
-  rgba(102, 165, 173, 1)); */
+  height: 170rem;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -13,6 +9,22 @@
   overflow: hidden;
 } 
 
+.top-circles {
+  position: absolute;
+  height: 140rem;
+  width: 140rem;
+  top: -20rem;
+  left: -80rem;
+}
+
+.bottom-circles {
+  position: absolute;
+  height: 140rem;
+  width: 140rem;
+  top: 40rem;
+  right: -80rem;
+}
+
 .projects-background {
   position: absolute;
   /* height: 50rem;
@@ -20,46 +32,40 @@
   border: #c99e10 solid .5rem;
   border-radius: 50%;
   opacity: .3;
-
-}
-
-.triangle-one {
-  width: 0px;
-
 }
 
 .circle-one {
   height: 100rem;
   width: 100rem;
-  top: -5rem;
-  left: -50rem;
+  top: 20rem;
+  left: 20rem;
 }
 
 .circle-two {
   height: 110rem;
   width: 110rem;
-  top: -10rem;
-  left: -55rem;
+  top: 15rem;
+  left: 15rem;
 }
 
 .circle-three {
   height: 120rem;
   width: 120rem;
-  top: -15rem;
-  left: -60rem;
+  top: 10rem;
+  left: 10rem;
 }
+
 .circle-four {
   height: 130rem;
   width: 130rem;
-  top: -20rem;
-  left: -65rem;
+  top: 5rem;
+  left: 5rem;
 }
 
 .circle-five {
   height: 140rem;
   width: 140rem;
-  top: -25rem;
-  left: -70rem;
+
 }
 /* .square-one {
   top: 0rem;
