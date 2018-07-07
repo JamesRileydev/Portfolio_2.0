@@ -7,10 +7,22 @@ for (var i = 0; i < 100; i++) {
   // $('#star-container').css('backgroundColor', 'white');
 }
 
-
 $('.navigation__link').click(function () {
   $(".navigation__checkbox").prop("checked", false);
   });
+
+$("#explore-btn").click(function() {
+$('html, body').animate({
+	scrollTop: $("#projects").offset().top
+}, 2000);
+});
+
+	$(document).ready(function() {
+		$(window).scroll(function(){
+			$('.landing-body').css("opacity", 1 - $(window).scrollTop() / 1000)
+		})
+	})
+	
 
 //   //jQuery is required to run this code
 // $( document ).ready(function() {

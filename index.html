@@ -13,10 +13,10 @@
   <link rel="stylesheet" href="css/landing-style.css">
   <link rel="stylesheet" href="css/projects-style.css">
   <link rel="stylesheet" href="css/about-style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
-  <div class="landing-body" id="home">
     <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
       <label for="navi-toggle" class="navigation__button">
@@ -50,20 +50,24 @@
         </ul>
       </nav>
     </div>
-    <div class="landing-title">
-      <div class="landing-name">James Riley
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
+
+  <div class="landing-body" id="home">
+    
+	<div class="title-container">
+	<p class="title-name tracking-in-expand-fwd">James Riley</p>
+	<div class="landing-title-border">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	</div>
     <div class="landing-subtitle">
       <div class="subtitle-animated-1">tinker.</div>
       <div class="subtitle-animated-2">crafter.</div>
       <div class="subtitle-animated-3">creator.</div>
     </div>
-    <a href="#projects" class="landing-button pulse">EXPLORE</a>
+    <a href="#projects" class="landing-button pulse" id="explore-btn">EXPLORE</a>
 
   </div>
   <div class="projects-body" id="projects">
@@ -206,12 +210,12 @@
     <!-- <div class="projects-h2">
       <h2>CONTACT</h2>
     </div> -->
-    <div class="bg-video">
+<!--     <div class="bg-video">
       <video class="bg-video__content" autoplay muted loop>
         <source src="img/Forest-Lullaby.mp4" type="video/mp4">
         <source src="img/Forest-Lullaby.webm" type="video/webm"> Your browser is not suppoerted!
       </video>
-    </div>
+    </div> -->
     <!-- <div class="poster hidden">
       <img src="img/Two-Swimmers.jpg" alt="">
     </div> -->
