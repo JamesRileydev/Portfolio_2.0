@@ -102,7 +102,7 @@
 	animation: rotateWord 18s linear infinite 0s;
 }
 .rw-words-1 span:nth-child(2) { 
-    -webkit-animation-delay: 6s; 
+  -webkit-animation-delay: 6s; 
 	-ms-animation-delay: 6s; 
 	animation-delay: 6s; 
 	color: #304040;
@@ -164,6 +164,21 @@
 }
 @media screen and (max-width: 320px){
 	.rw-sentence { font-size: 9px; }
+}
+
+.about-profile-pic {
+  position: absolute;
+  border: 2px red solid;
+  bottom: 0;
+  right: 5rem;
+}
+
+.profile-pic {
+  position: absolute;
+  border: 2px #fff solid;
+  bottom: 0;
+  right: 10rem;
+  width: 20rem;
 }
 
 .contact-body {
