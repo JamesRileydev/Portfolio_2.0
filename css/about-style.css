@@ -49,8 +49,8 @@
 
 .outer-box {
 	box-sizing: border-box;
-	height: 500px;
-	width: 800px;
+	height: 50rem;
+	width: 70rem;
 	/* border: 6px solid rgba(91, 112, 101, .5); */
 	position: relative;
 	background-color: #fff;
