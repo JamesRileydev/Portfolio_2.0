@@ -245,5 +245,8 @@
   font-size: 2rem;
   color: #fff;
   margin-top: 1.2rem;
-  
+}
+
+.footer>p>span {
+  color: #9b4f0f;
 }

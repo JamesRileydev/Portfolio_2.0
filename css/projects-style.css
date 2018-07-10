@@ -166,7 +166,7 @@ h2 {
  }
 
 .card__picture {
-    background-size: cover;
+    background-size: contain;
     height: 23rem;
     /* background-blend-mode: overlay; */
     background-repeat: no-repeat;
@@ -183,6 +183,12 @@ h2 {
   background-image: url(/img/turn-based-game.png); }
 .card__picture--3 {
   background-image: url(/img/vue-item-list.PNG); }
+.card__picture--4 {
+  background-image: url(/img/budget-app.png); }
+.card__picture--5 {
+  background-image: url(/img/todo-list.png); }
+.card__picture--6 {
+  background-image: url(/img/vue-bootstrap-event-board.png); }
 .card__heading {
   font-size: 2rem;
   font-weight: 300;
