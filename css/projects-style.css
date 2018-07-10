@@ -72,10 +72,9 @@
 .circle-five {
   height: 140rem;
   width: 140rem;
-
 }
 
-.row {
+/* .row {
   max-width: 114rem;
   margin: 0 auto; }
   .row:not(:last-child) {
@@ -113,7 +112,7 @@
   .row .col-2-of-4 {
     width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
   .row .col-3-of-4 {
-    width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+    width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); } */
 
 .projects-h2 {
   border: 3px solid #04202C;
@@ -128,11 +127,22 @@ h2 {
   font-size: 3rem;
 }
 
+.projects-container {
+  max-width: 120rem;
+  /* width: auto; */
+  flex-wrap: wrap;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  border: .2rem red solid;
+}
+
 .card {
   height: 30rem;
   width: 30rem;
   perspective: 150rem;
-  margin-bottom: 8rem;
+  /* margin-bottom: 8rem; */
+  padding: 5rem;
 }
 
 .card__side {
