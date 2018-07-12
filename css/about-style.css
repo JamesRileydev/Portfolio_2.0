@@ -230,16 +230,26 @@
   border-radius: .5rem;
 }
 
-.contact-form>h2 {
+.contact-form h2 {
   margin-top: 5rem;
   font-family: 'Cabin Sketch', sans-serif; 
   font-size: 3rem;
 }
 
+.email-address {
+text-align: center;
+}
+
+.contact-header {
+  font-family: 'Cabin Sketch', sans-serif; 
+  font-size: 5rem;
+  margin-top: 6rem;
+  color: #9b4f0f;
+}
+
 .social-logos {
   display: flex;
   justify-content: space-around;
-
 }
 
 li {
@@ -253,18 +263,11 @@ li {
   text-decoration: none;
 }
 
-.contact-header {
-  color: #9b4f0f;
-}
-
 .email {
   color: #9b4f0f;
   font-size: 2rem;
   font-weight: bold;
 }
-
-
-
 
 .footer {
   position: absolute;
