@@ -237,7 +237,13 @@
 }
 
 .email-address {
-text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.email-address>p {
+  padding: .5rem;
 }
 
 .contact-header {
@@ -259,7 +265,7 @@ li {
 .contact-form a {
   margin: 2rem;
   color: #9b4f0f;
-  font-size: 4rem;
+  font-size: 3rem;
   text-decoration: none;
 }
 
