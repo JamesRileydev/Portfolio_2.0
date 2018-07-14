@@ -6,7 +6,7 @@
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 } 
 
 .top-circles {
@@ -36,7 +36,7 @@
   position: absolute;
   /* height: 50rem;
   width: 50rem; */
-  border: #c99e10 solid .3rem;
+  border: #2a3132 solid .3rem;
   border-radius: 50%;
   opacity: .2;
 }
