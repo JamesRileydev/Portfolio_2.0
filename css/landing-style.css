@@ -16,15 +16,18 @@ html {
   font-size: 62.5%; 
   }
 
-body {
-  overflow-x: hidden;
+html, body {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 * {
   margin: 0px;
   padding: 0px;
   font-family: 'Lato', sans-serif;
-
 }
 
 .landing-body {
@@ -48,7 +51,7 @@ body {
 
 .title-container {
 	position: relative;
-	margin-top: 100px;
+	margin-top: 20vh;
 	text-align: center;
 }
 
