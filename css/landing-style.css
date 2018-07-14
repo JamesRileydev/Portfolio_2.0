@@ -63,13 +63,13 @@ body {
 	/* border: lightgrey 2px solid; */
 	text-transform: uppercase;
 	font-size: 10rem;
-	font-family: 'Cabin Sketch', sans-serif; 
-	color: lightgrey;	
+	font-family: 'Maven Pro', sans-serif;
+	color: #fff;	
 }
 
 .tracking-in-expand-fwd {
-	-webkit-animation: tracking-in-expand-fwd 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 7s both;
-	        animation: tracking-in-expand-fwd 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 7s both;
+	-webkit-animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 6s both;
+	        animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 6s both;
 }
 
 /* ----------------------------------------------
@@ -118,18 +118,11 @@ body {
 
 /* Old landing title  */
 
-/* .landing-title-container {
-  display: flex;
-  justify-content: center;
-  padding-top: 20rem;
-  
-}
- */
 .landing-title-border {
   display: inline-block;
   width: 70rem;
   height: 15rem;
-  color: lightgray;
+  color: #fff;
   overflow: hidden;
   position: relative;
 }
@@ -143,7 +136,7 @@ body {
   text-align: center;
   font-family: 'Maven Pro', sans-serif; 
   font-size: 4rem;
-  color: lightgray;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -180,8 +173,8 @@ body {
 
 .star {
   position: absolute;
-  width: .3rem;
-  height: .3rem;
+  width: .4rem;
+  height: .4rem;
   /* background: #c99e10; */
   /* background-image: radial-gradient(white, grey); */
   border-radius: 50%;
@@ -216,7 +209,7 @@ body {
 
 .landing-title-border span {
 	position: absolute;	
-	background: lightgray;
+	background: #fff;
 
 }
 
@@ -371,11 +364,11 @@ body {
 
 .navigation__button {
   background-color: #fff;
-  height: 6rem;
-  width: 6rem;
+  height: 6.2rem;
+  width: 6.2rem;
   position: fixed;
-  top: 6.5rem;
-  right: 6.5rem;
+  top: 6.4rem;
+  right: 6.4rem;
   border-radius: 50%;
   z-index: 2000;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);

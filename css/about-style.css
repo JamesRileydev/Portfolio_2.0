@@ -1,6 +1,6 @@
 
 .about-body {
-  height: 100vh;
+  height: 80vh;
   /* background-color: rgba(91, 112, 101, .5); */
   position: relative;
   display: flex;
@@ -31,6 +31,10 @@
   justify-content: center;
   align-items: center;
   /* border-radius: .5rem; */
+}
+
+.about-text-parent>img {
+  border-radius: 3px;
 }
 
 .about-h2 h2 {
@@ -185,11 +189,12 @@
   box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.1);
   border-radius: .5rem;
   margin-bottom: 4.5rem;
+  border: 1px solid lightgray;
 }
 
 .contact-form h2 {
   margin-top: 5rem;
-  font-family: 'Cabin Sketch', sans-serif; 
+	font-family: 'Maven Pro', sans-serif;
   font-size: 3rem;
 }
 
@@ -204,7 +209,8 @@
 }
 
 .contact-header {
-  font-family: 'Cabin Sketch', sans-serif; 
+	font-family: 'Maven Pro', sans-serif;
+  color: #2a3132;
   font-size: 5rem;
   margin-top: 6rem;
 }
@@ -247,8 +253,9 @@ li {
   font-size: 1.5rem;
   color: #fff;
   margin-top: 1.2rem;
+  letter-spacing: 1.5px;
 }
 
 .footer>p>span {
-  color: #9b4f0f;
+  color: whitesmoke;
 }
