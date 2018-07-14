@@ -25,6 +25,12 @@
   right: -80rem;
 }
 
+@media only screen and (max-width: 90rem) {
+ .middle-circles {
+   visibility: hidden;
+ }
+
+}
 .bottom-circles {
   position: absolute;
   height: 140rem;
@@ -79,9 +85,9 @@
   margin: 0 auto; }
 .row:not(:last-child) {
   margin-bottom: 8rem; }
-  @media (max-width: 56.25em) {
-    .row:not(:last-child) {
-      margin-bottom: 6rem; } }
+@media (max-width: 56.25em) {
+  .row:not(:last-child) {
+    margin-bottom: 6rem; } }
 @media (max-width: 56.25em) {
   .row {
     max-width: 50rem;
@@ -125,6 +131,22 @@ h2 {
   text-align: center;
   color: #04202C;
   font-size: 3rem;
+}
+
+@media only screen and (max-width: 90rem) {
+.card-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .projects-h2 {
+   margin: 5rem 0;
+ }
+
+ .about-h2 {
+   margin-top: 5rem;
+ }
 }
 
 .card {

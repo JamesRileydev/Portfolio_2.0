@@ -21,6 +21,9 @@
   justify-content: space-around;
   align-items: center;
 }
+
+
+
 .about-h2 {
   border: 3px solid #fff;
   margin-top: 10rem;
@@ -32,6 +35,12 @@
   align-items: center;
   /* border-radius: .5rem; */
 }
+
+/* @media only screen and (max-width: 90rem) {
+ .about-h2 {
+   margin: 5rem 0;
+ }
+} */
 
 .about-text-parent>img {
   border-radius: 3px;
