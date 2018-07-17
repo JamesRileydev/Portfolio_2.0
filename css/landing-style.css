@@ -118,9 +118,6 @@ html, body {
   }
 }
 
-
-/* Old landing title  */
-
 .landing-title-border {
   display: inline-block;
   width: 70rem;
@@ -129,7 +126,6 @@ html, body {
   overflow: hidden;
   position: relative;
 }
-
 
 .landing-subtitle {
   margin-top: 1rem;
