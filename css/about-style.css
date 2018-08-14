@@ -38,7 +38,6 @@
  }
 }
 
-
 .about-h2 {
   border: 3px solid #fff;
   margin-top: 10rem;
@@ -70,12 +69,14 @@
 .about-text {
   padding: 0 0 10rem 0;
   text-align: left;
+  word-break: normal;
   /* border: 2px red solid; */
 }
 
-.about-text>p {
+.about-text {
   font-size: 2rem;
   color: #fff;
+ 
   /* padding: 2rem 0; */
 }
 
@@ -243,10 +244,6 @@
     font-size: 4rem;
   }
 
-  .email-header {
-    font-size: 2rem;
-    color: purple;
-  }
 }
 
 .contact-form h2 {
