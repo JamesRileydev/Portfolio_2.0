@@ -140,14 +140,24 @@ html, body {
 }
 
 @media (max-width: 800px) {
+  .navigation__button {
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .navigation__background {
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+
   .landing-title-border {
     width: 50rem;
     height: 10rem;
-    margin-top: -2.5rem;
 }
 
   .title-name {
     font-size: 7rem;
+    margin-top: -4rem;
   }
 
   .landing-subtitle {
@@ -155,7 +165,7 @@ html, body {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .landing-title-border {
     width: 30rem;
     height: 7rem;
@@ -399,8 +409,8 @@ html, body {
   height: 6.2rem;
   width: 6.2rem;
   position: fixed;
-  top: 6.4rem;
-  right: 6.4rem;
+  top: 3rem;
+  right: 3rem;
   border-radius: 50%;
   z-index: 2000;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
@@ -412,8 +422,8 @@ html, body {
   width: 6rem;
   border-radius: 50%;
   position: fixed;
-  top: 6.5rem;
-  right: 6.5rem;
+  top: 3rem;
+  right: 3.1rem;
   background-image: radial-gradient(#9b4f0f, #c99e10);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
